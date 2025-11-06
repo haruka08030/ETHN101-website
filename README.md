@@ -1,4 +1,4 @@
-# ETHN110-website
+# From Lunchbox Shame to Pride
 
 ## Project Description
 
