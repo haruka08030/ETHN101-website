@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This is a website developed as the final project for ETHN-110 course, which focuses on food culture and belonging. It features different sections like Home, The Issue, Stories, History, Take Action, and References.
+This is a website developed as the final project for ETHN-101 course, which focuses on food culture and belonging. It features different sections like Home, The Issue, Stories, History, Take Action, and References.
 
 ## Setup Instructions
 
