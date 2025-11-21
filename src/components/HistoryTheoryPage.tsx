@@ -5,14 +5,6 @@ import { BookOpen, Globe, Lightbulb } from 'lucide-react';
 
 const scholars = [
   {
-    name: 'Ronald Takaki',
-    year: '1989',
-    book: 'Strangers from a Different Shore',
-    concept: 'Immigration & Assimilation',
-    quote: 'The immigrant\'s journey was not simply a geographical passage but a psychological one, marked by the tension between preserving cultural memory and adapting to hostile new environments.',
-    description: 'Takaki traces how Asian immigrants faced exclusion laws, labor exploitation, and cultural denigration. He documents how Asian Americans were told their foods were incompatible with American identity.'
-  },
-  {
     name: 'Edward Said',
     year: '1978',
     book: 'Orientalism',
@@ -21,13 +13,14 @@ const scholars = [
     description: 'Said explains how Western culture constructs non-Western cultures as exotic and inferior. This framework allows simultaneous exoticization and denigration of minority cuisines.'
   },
   {
-    name: 'Rashid Khalidi',
-    year: '2020',
-    book: 'The Hundred Years\' War on Palestine',
-    concept: 'Narrative Control',
-    quote: 'The struggle over narratives determines whose lives are valued, whose histories are remembered, and whose futures are possible.',
-    description: 'Khalidi shows that controlling narratives—deciding whose stories are legitimate—is central to maintaining inequality. When cultural foods are treated as "weird," entire identities are being othered.'
+    name: 'Ronald Takaki',
+    year: '1989',
+    book: 'Strangers from a Different Shore',
+    concept: 'Immigration & Assimilation',
+    quote: 'The immigrant\'s journey was not simply a geographical passage but a psychological one, marked by the tension between preserving cultural memory and adapting to hostile new environments.',
+    description: 'Takaki traces how Asian immigrants faced exclusion laws, labor exploitation, and cultural denigration. He documents how Asian Americans were told their foods were incompatible with American identity.'
   },
+
   {
     name: 'Yuri Kochiyama',
     year: '2004',
@@ -43,6 +36,14 @@ const scholars = [
     concept: 'Everyday Revolution',
     quote: 'Revolution is not an event. It is a process of becoming more human by creating relationships of love, respect, and mutual recognition.',
     description: 'Boggs argues that revolution happens through everyday acts. A student eating their grandmother\'s biryani in the cafeteria is modeling a different way of being—one that refuses assimilation.'
+  },
+  {
+    name: 'Rashid Khalidi',
+    year: '2020',
+    book: 'The Hundred Years\' War on Palestine',
+    concept: 'Narrative Control',
+    quote: 'The struggle over narratives determines whose lives are valued, whose histories are remembered, and whose futures are possible.',
+    description: 'Khalidi shows that controlling narratives—deciding whose stories are legitimate—is central to maintaining inequality. When cultural foods are treated as "weird," entire identities are being othered.'
   }
 ];
 
@@ -59,7 +60,7 @@ export function HistoryTheoryPage() {
           />
         </div>
         <div className="absolute inset-0 bg-gradient-to-b from-red-950/50 via-red-950/80 to-red-950" />
-        
+
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
