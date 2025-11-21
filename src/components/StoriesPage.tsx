@@ -30,7 +30,7 @@ const stories = [
     image: 'https://images.unsplash.com/photo-1659275799237-cbc057d97e7f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtaWRkbGUlMjBlYXN0ZXJuJTIwZm9vZHxlbnwxfHx8fDE3NjIyMjIwNjR8MA&ixlib=rb-4.1.0&q=80&w=1080',
     story: 'Amira\'s family fled Palestine when she was seven. At school, her za\'atar sandwiches drew stares and taunts. Teachers mispronounced her name. Classmates asked if she was a terrorist. The Orientalist lens made Amira feel constantly surveilled and misunderstood. In college, she studied Rashid Khalidi\'s work on Palestinian narratives.',
     quote: 'They wanted to erase my Palestinian identity—to make me just "Arab" or just "American," never both, never whole.',
-    transformation: 'Amira founded "Break Bread, Build Bridges," hosting monthly potlucks where students share dishes and discuss food politics. "When I make my grandmother\'s recipes and share them, I\'m saying: We exist. Our culture has value. You cannot erase us."'
+    transformation: 'Amira hosts monthly potlucks where students share dishes and discuss food politics. "When I make my grandmother\'s recipes and share them, I\'m saying: We exist. Our culture has value. You cannot erase us."'
   }
 ];
 
@@ -47,7 +47,7 @@ export function StoriesPage() {
           />
         </div>
         <div className="absolute inset-0 bg-gradient-to-b from-slate-900/50 via-slate-900/70 to-slate-900" />
-        
+
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -90,9 +90,8 @@ export function StoriesPage() {
               transition={{ duration: 0.6 }}
               className="relative"
             >
-              <div className={`grid md:grid-cols-2 gap-8 items-center ${
-                index % 2 === 1 ? 'md:flex-row-reverse' : ''
-              }`}>
+              <div className={`grid md:grid-cols-2 gap-8 items-center ${index % 2 === 1 ? 'md:flex-row-reverse' : ''
+                }`}>
                 {/* Image */}
                 <div className={`relative ${index % 2 === 1 ? 'md:order-2' : ''}`}>
                   <div className="relative h-[500px] overflow-hidden">
@@ -157,7 +156,7 @@ export function StoriesPage() {
             className="bg-gradient-to-br from-slate-800 to-slate-700 p-12 border-l-4 border-orange-600"
           >
             <h3 className="text-white mb-8 text-center">Common Threads</h3>
-            
+
             <div className="grid md:grid-cols-3 gap-8">
               {[
                 {

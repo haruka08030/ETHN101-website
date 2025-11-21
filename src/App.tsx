@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { HomePage } from './components/HomePage';
 import { TheIssuePage } from './components/TheIssuePage';
@@ -41,6 +41,14 @@ export default function App() {
         return <HomePage />;
     }
   };
+
+  // Scroll to top on page change so new page content starts at the top
+  useEffect(() => {
+    // use instant scroll to avoid staying in the middle of the previous page
+    if (typeof window !== 'undefined') {
+      window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
+    }
+  }, [currentPage]);
 
   return (
     <div className="min-h-screen bg-red-950">
