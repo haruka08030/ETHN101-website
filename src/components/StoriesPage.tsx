@@ -187,7 +187,7 @@ export function StoriesPage() {
 
             <div className="mt-12 text-center">
               <p className="text-white/90 text-lg leading-relaxed max-w-3xl mx-auto">
-                Food becomes a site of <span className="text-orange-400">resistance</span>, <span className="text-orange-400">education</span>, and <span className="text-orange-400">collective healing</span> (Boggs, 2012, p. 65).
+                Food becomes a site of <span className="text-orange-400">resistance</span>, <span className="text-orange-400">education</span>, and <span className="text-orange-400">collective healing</span> (Boggs, 2011, p. 65).
               </p>
             </div>
           </motion.div>

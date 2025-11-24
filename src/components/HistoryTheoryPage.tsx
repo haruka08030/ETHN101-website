@@ -31,7 +31,7 @@ const scholars = [
   },
   {
     name: 'Grace Lee Boggs',
-    year: '2012',
+    year: '2011',
     book: 'The Living for Change',
     concept: 'Everyday Revolution',
     quote: 'Revolution is not an event. It is a process of becoming more human by creating relationships of love, respect, and mutual recognition.',

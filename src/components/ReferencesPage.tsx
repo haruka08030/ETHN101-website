@@ -4,9 +4,9 @@ import { BookOpen, GraduationCap, Library } from 'lucide-react';
 
 const references = [
   {
-    citation: "Boggs, G. L. (2012). The living for change: An autobiography. University of Minnesota Press.",
+    citation: "Boggs, G. L. (2011). The living for change: An autobiography. University of Minnesota Press.",
     author: 'Grace Lee Boggs',
-    year: '2012',
+    year: '2011',
     topic: 'Community Organizing & Everyday Revolution',
     description: 'Chronicles decades of activism emphasizing that revolutionary change begins with personal transformation and everyday acts of resistance. Inspires grassroots approaches to social justice.'
   },

@@ -16,7 +16,7 @@ export function TheIssuePage() {
       title: 'Xenophobia',
       description: 'The fear or hatred of foreigners and foreign cultures. Comments like "That smells weird" are coded expressions of xenophobic anxiety, transforming a lunchbox into a symbol of foreignness that must be policed.',
       quote: '"Xenophobia transforms everyday acts of eating into sites of surveillance and exclusion."',
-      author: 'Grace Lee Boggs (2012)',
+      author: 'Grace Lee Boggs (2011)',
       icon: AlertCircle
     },
     {
@@ -51,7 +51,7 @@ export function TheIssuePage() {
           ))}
         </div>
         <div className="absolute inset-0 bg-gradient-to-b from-red-950/50 via-red-950/80 to-red-950" />
-        
+
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -105,7 +105,7 @@ export function TheIssuePage() {
               <p className="text-white/80 text-lg mb-6 leading-relaxed">
                 The shame is not about the food itself but about being marked as <span className="text-orange-400">"other"</span>—someone who doesn't belong. Children may refuse their parents' lovingly prepared meals, beg for Lunchables instead, or eat quickly and quietly to avoid attention.
               </p>
-              
+
               <div className="bg-gradient-to-br from-red-900/30 to-orange-900/30 border-l-4 border-orange-600 p-6 text-white shadow-xl">
                 <p className="text-lg italic mb-3 leading-relaxed">
                   "For many Asian Americans, the path to acceptance seemed to require a shedding of their own culture, including the foods that connected them to family and memory."
@@ -140,9 +140,8 @@ export function TheIssuePage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.2 }}
-                className={`relative overflow-hidden ${
-                  index % 2 === 0 ? '' : 'md:ml-auto'
-                } max-w-5xl`}
+                className={`relative overflow-hidden ${index % 2 === 0 ? '' : 'md:ml-auto'
+                  } max-w-5xl`}
               >
                 <div className="border-l-4 border-orange-600 bg-slate-900/50 p-8 md:p-12">
                   <div className="flex items-start gap-6 mb-6">
@@ -156,7 +155,7 @@ export function TheIssuePage() {
                       </p>
                     </div>
                   </div>
-                  
+
                   <div className="bg-gradient-to-br from-red-900/30 to-orange-900/30 border-l-4 border-orange-600 p-6 text-white">
                     <p className="text-lg italic mb-3 leading-relaxed">
                       {issue.quote}
