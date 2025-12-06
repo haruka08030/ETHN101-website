@@ -221,19 +221,40 @@ export function StoriesPage() {
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className="bg-white rounded-xl p-6 shadow-2xl"
+                className="bg-slate-800 border border-orange-700/50 p-6"
               >
                 <div className="flex items-start gap-4">
-                  <div className="bg-gradient-to-r from-purple-500 to-pink-500 rounded-full p-2 flex-shrink-0 mt-1">
-                    <div className="w-3 h-3 bg-white rounded-full" />
-                  </div>
-                  <p className="text-slate-800 text-lg">{action}</p>
+                  <div className="bg-gradient-to-r from-red-600 to-orange-600 w-2 h-2 flex-shrink-0 mt-2" />
+                  <p className="text-slate-200 text-lg">{action}</p>
                 </div>
               </motion.div>
             ))}
           </div>
         </div>
       </section>
+
+      <section className="py-20 bg-slate-900">
+        <div className="max-w-4xl mx-auto px-4 text-center">
+          <h3 className="text-white mb-8 text-2xl">Real Voices from the Media</h3>
+          <div className="grid md:grid-cols-2 gap-4">
+            <a
+              href="https://www.npr.org/sections/thesalt/2017/08/21/544191283/the-lunchbox-moment-when-immigrant-kids-hide-their-heritage"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block p-6 bg-slate-800 border border-slate-700 hover:border-orange-500 transition-colors rounded-xl text-left group"
+            >
+              <h4 className="text-orange-300 font-bold group-hover:text-orange-400 flex items-center gap-2">
+                NPR: The Lunchbox Moment <span className="text-sm">↗</span>
+              </h4>
+              <p className="text-slate-300 text-sm mt-2">
+                Real stories of immigrant kids hiding their heritage during lunch.
+              </p>
+            </a>
+            {/* もう一つリンクを追加するなど */}
+          </div>
+        </div>
+      </section>
+
     </div>
   );
 }

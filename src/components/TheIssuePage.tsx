@@ -169,6 +169,39 @@ export function TheIssuePage() {
         </div>
       </section>
 
+      <section className="py-20 bg-red-950">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="bg-slate-900 border border-orange-700/30 rounded-2xl p-8 shadow-2xl"
+          >
+            <h3 className="text-white text-2xl mb-6 flex items-center gap-3">
+              By The Numbers
+            </h3>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <p className="text-4xl font-bold text-orange-400 mb-2">55%</p>
+                <p className="text-white/90">
+                  of Asian American adults say they have been subject to a racial slur or joke because of their background.
+                  <br />
+                  <span className="text-sm text-slate-400 mt-2 block">(Pew Research Center, 2023)</span>
+                </p>
+              </div>
+              <div>
+                <p className="text-4xl font-bold text-orange-400 mb-2">1 in 5</p>
+                <p className="text-white/90">
+                  Asian American adults have hidden parts of their heritage (like food or customs) from non-Asians to fit in.
+                  <br />
+                  <span className="text-sm text-slate-400 mt-2 block">(Pew Research Center, 2023)</span>
+                </p>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
       {/* Why It Matters */}
       <section className="py-20 bg-gradient-to-b from-slate-800 to-slate-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
