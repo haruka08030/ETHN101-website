@@ -232,29 +232,40 @@ export function StoriesPage() {
           </div>
         </div>
       </section>
-
+      {/* Real Voices Section */}
       <section className="py-20 bg-slate-900">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h3 className="text-white mb-8 text-2xl">Real Voices from the Media</h3>
           <div className="grid md:grid-cols-2 gap-4">
             <a
-              href="https://www.npr.org/sections/thesalt/2017/08/21/544191283/the-lunchbox-moment-when-immigrant-kids-hide-their-heritage"
+              href="https://thevarsity.ca/2021/12/05/how-immigrants-express-culture-through-food/"
               target="_blank"
               rel="noopener noreferrer"
               className="block p-6 bg-slate-800 border border-slate-700 hover:border-orange-500 transition-colors rounded-xl text-left group"
             >
               <h4 className="text-orange-300 font-bold group-hover:text-orange-400 flex items-center gap-2">
-                NPR: The Lunchbox Moment <span className="text-sm">↗</span>
+                The Varsity: Beyond 'Shame' <span className="text-sm">↗</span>
               </h4>
               <p className="text-slate-300 text-sm mt-2">
-                Real stories of immigrant kids hiding their heritage during lunch.
+                Moving past the "lunchbox moment" narrative to celebrate cultural expression through food.
               </p>
             </a>
-            {/* もう一つリンクを追加するなど */}
+            <a
+              href="https://www.cbsnews.com/newyork/news/love-your-lunch-campaign-in-montclair-nj-stop-food-shaming/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block p-6 bg-slate-800 border border-slate-700 hover:border-orange-500 transition-colors rounded-xl text-left group"
+            >
+              <h4 className="text-orange-300 font-bold group-hover:text-orange-400 flex items-center gap-2">
+                CBS News: "Love Your Lunch" <span className="text-sm">↗</span>
+              </h4>
+              <p className="text-slate-300 text-sm mt-2">
+                How students in New Jersey started a campaign to celebrate cultural foods and stop food shaming.
+              </p>
+            </a>
           </div>
         </div>
       </section>
-
     </div>
   );
 }
