@@ -2,6 +2,14 @@ import { motion } from 'motion/react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { Badge } from './ui/badge';
 import { BookOpen, Globe, Lightbulb } from 'lucide-react';
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "./ui/accordion"
+
+
 
 const scholars = [
   {
@@ -31,7 +39,7 @@ const scholars = [
   },
   {
     name: 'Grace Lee Boggs',
-    year: '2012',
+    year: '2011',
     book: 'The Living for Change',
     concept: 'Everyday Revolution',
     quote: 'Revolution is not an event. It is a process of becoming more human by creating relationships of love, respect, and mutual recognition.',
@@ -143,9 +151,16 @@ export function HistoryTheoryPage() {
 
                       {/* Content */}
                       <div className="md:col-span-2 space-y-6">
-                        <p className="text-white/80 text-lg leading-relaxed">
-                          {scholar.description}
-                        </p>
+                        <Accordion type="single" collapsible className="w-full">
+                          <AccordionItem value={`scholar-${index}`} className="border-orange-700/30">
+                            <AccordionTrigger className="text-white hover:text-orange-300 hover:no-underline">
+                              <span className="text-lg">Read Analysis</span>
+                            </AccordionTrigger>
+                            <AccordionContent className="text-slate-200 text-lg leading-relaxed">
+                              {scholar.description}
+                            </AccordionContent>
+                          </AccordionItem>
+                        </Accordion>
 
                         <div className="bg-gradient-to-br from-red-900/30 to-orange-900/30 border-l-4 border-orange-600 p-6 text-white shadow-xl">
                           <div className="flex items-start gap-4">

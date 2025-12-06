@@ -81,7 +81,7 @@ export function TakeActionPage() {
             </div>
             <h2 className="text-white mb-4 drop-shadow-2xl text-4xl md:text-5xl">From Awareness to Change</h2>
             <p className="text-orange-200 text-sm md:text-2xl">
-              Awareness alone doesn't create change—action does (Boggs, 2012)
+              Awareness alone doesn't create change—action does (Boggs, 2011)
             </p>
           </motion.div>
         </div>
@@ -200,7 +200,7 @@ export function TakeActionPage() {
               <p className="text-white text-2xl italic mb-4">
                 "Transform yourself to transform the world."
               </p>
-              <p className="text-cyan-100 text-lg">— Grace Lee Boggs (2012, p. 77)</p>
+              <p className="text-cyan-100 text-lg">— Grace Lee Boggs (2011, p. 77)</p>
             </div>
           </motion.div>
         </div>

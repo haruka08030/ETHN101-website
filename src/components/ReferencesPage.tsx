@@ -4,9 +4,9 @@ import { BookOpen, GraduationCap, Library } from 'lucide-react';
 
 const references = [
   {
-    citation: "Boggs, G. L. (2012). The living for change: An autobiography. University of Minnesota Press.",
+    citation: "Boggs, G. L. (2011). The living for change: An autobiography. University of Minnesota Press.",
     author: 'Grace Lee Boggs',
-    year: '2012',
+    year: '2011',
     topic: 'Community Organizing & Everyday Revolution',
     description: 'Chronicles decades of activism emphasizing that revolutionary change begins with personal transformation and everyday acts of resistance. Inspires grassroots approaches to social justice.'
   },
@@ -30,6 +30,13 @@ const references = [
     year: '2016',
     topic: 'Youth Identity & Cultural Politics',
     description: 'Examines how Asian American youth navigate cultural identity through everyday practices including food. Analyzes emotional labor of code-switching and psychological impact of assimilation pressure.'
+  },
+  {
+    citation: "Pew Research Center. (2023). Asian Americans’ experiences with discrimination. Pew Research Center.",
+    author: 'Pew Research Center',
+    year: '2023',
+    topic: 'Discrimination & Identity',
+    description: 'A comprehensive survey highlighting that about 20% of Asian American adults have hidden parts of their heritage (including food and cultural practices) from non-Asians to fit in. This data provides statistical backing for the experience of "lunchbox shame."'
   },
   {
     citation: "Said, E. W. (1978). Orientalism. Pantheon Books.",
